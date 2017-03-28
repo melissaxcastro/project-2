@@ -3,13 +3,36 @@
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
 
+// Colors
+
+$blue: #5DBEE9;
+$black: #232524;
+$yellow: #FFE000;
+
+
+// Jumbotron
+
+$jumbotron-padding: 6rem;
+$jumbotron-bg: $blue;
+
+
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
 
-$font-family-sans-serif: 'Ubuntu', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif: 'Oswald', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       $font-family-sans-serif;
-$headings-font-family:   $font-family-serif;
+$headings-font-family:   $font-family-sans-serif;
+
+// Type
+
+$display1-size: 10rem;
+$display1-weight: 700;
+
+
+
+
+

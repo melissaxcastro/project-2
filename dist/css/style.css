@@ -1,0 +1,46 @@
+
+body {
+   background-image: url('../images/dots.svg');
+ }
+.display-3 {
+  font-size: 9rem;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+.jumbotron {
+	height: 40rem;
+}
+
+.form-control{
+	color: #000;
+    background-image: none;
+    background-color: #fff;
+    border-color: #000;
+    border: solid;
+   }
+
+.form-control:focus{
+	color: #9ED8F2;
+    background-image: none;
+    background-color: #fff;
+    border-color: #fff;
+    border: solid;
+}
+   
+
+.btn-outline-secondary {
+    color: #000;
+    background-image: none;
+    background-color: #fff;
+    border-color: #000;
+   }
+
+.btn-outline-secondary:hover {
+	color: #5DBEE9;
+    background-image: none;
+    background-color: #fff;
+    border-color: #9ED8F2;
+}
+/*# sourceMappingURL=style.css.map */

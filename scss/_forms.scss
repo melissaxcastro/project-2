@@ -3,10 +3,8 @@
 //
 // Textual form controls
 //
-
 .form-control {
   display: block;
-  width: 100%;
   // // Make inputs at least the height of their button counterpart (base line-height + padding + border)
   // height: $input-height;
   padding: $input-padding-y $input-padding-x;
@@ -296,6 +294,8 @@ select.form-control-lg {
 // default HTML form controls and our custom form controls (e.g., input groups).
 
 .form-inline {
+  margin: 0 auto;
+  width: 300px;
   display: flex;
   flex-flow: row wrap;
   align-items: center; // Prevent shorter elements from growing to same height as others (e.g., small buttons growing to normal sized button height)
@@ -327,6 +327,9 @@ select.form-control-lg {
 
     // Allow folks to *not* use `.form-group`
     .form-control {
+      font-family: $font-family-sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
       display: inline-block;
       width: auto; // Prevent labels from stacking above inputs in `.form-group`
       vertical-align: middle;
